@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ArdiumFormFieldModule } from '@ardium-ui/ui';
-import { TabberBasicExampleData, TabberLabelExampleData, TabberLabelTemplatesExampleData } from 'txt-dist';
+import { TabberBasicExampleData, TabberLabelExampleData, TabberLabelTemplatesExampleData } from '@examples';
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';
 import { CodeExampleComponent } from '../../../../components/code-example/code-example.component';
 import { CodeComponent } from '../../../../components/code/code.component';

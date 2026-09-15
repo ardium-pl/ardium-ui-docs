@@ -46,7 +46,10 @@
         "src/app/svg/index"
       ],
       "@examples": [
-        "txt-dist"
+        "txt-dist/index.ts"
+      ],
+      "@examples/*": [
+        "txt-dist/*"
       ]
     },
   },

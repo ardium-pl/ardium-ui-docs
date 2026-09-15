@@ -1,10 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ArdiumDividerModule } from '@ardium-ui/ui';
-import { ArticleSectionsModule } from 'src/app/components/article-sections/article-sections.module';
-import { CodeExampleComponent } from 'src/app/components/code-example/code-example.component';
-import { CodeComponent } from 'src/app/components/code/code.component';
-import { HeadingsModule } from 'src/app/components/headings/headings.module';
 import {
   DividerBasicExampleData,
   DividerContentAlignmentExampleData,
@@ -13,7 +9,11 @@ import {
   DividerDirectiveExampleData,
   DividerVariantsExampleData,
   DividerVerticalFlexItemExampleData,
-} from 'txt-dist';
+} from '@examples';
+import { ArticleSectionsModule } from 'src/app/components/article-sections/article-sections.module';
+import { CodeExampleComponent } from 'src/app/components/code-example/code-example.component';
+import { CodeComponent } from 'src/app/components/code/code.component';
+import { HeadingsModule } from 'src/app/components/headings/headings.module';
 
 @Component({
   selector: 'divider-page',

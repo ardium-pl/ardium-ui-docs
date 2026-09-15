@@ -1,22 +1,22 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ArdiumGridModule, ArdiumStackModule } from '@ardium-ui/ui';
+import {
+    GridAutoLayoutExampleData,
+    GridBasicExampleData,
+    GridColumnsExampleData,
+    GridMultipleBreakpointsExampleData,
+    GridNestedExampleData,
+    GridResponsiveValuesExampleData,
+    GridSpacingExampleData,
+    GridStackCompanionExampleData,
+    StackBasicExampleData,
+    StackDirectionExampleData
+} from '@examples';
 import { ArticleSectionsModule } from 'src/app/components/article-sections/article-sections.module';
 import { CodeExampleComponent } from 'src/app/components/code-example/code-example.component';
 import { CodeComponent } from 'src/app/components/code/code.component';
 import { HeadingsModule } from 'src/app/components/headings/headings.module';
-import {
-  GridAutoLayoutExampleData,
-  GridBasicExampleData,
-  GridColumnsExampleData,
-  GridMultipleBreakpointsExampleData,
-  GridNestedExampleData,
-  GridResponsiveValuesExampleData,
-  GridSpacingExampleData,
-  GridStackCompanionExampleData,
-  StackBasicExampleData,
-  StackDirectionExampleData
-} from 'txt-dist';
 
 @Component({
   selector: 'grid-page',

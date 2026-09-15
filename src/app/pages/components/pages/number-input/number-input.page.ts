@@ -2,14 +2,14 @@ import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { ArdiumFormFieldModule, ArdiumNumberInputModule } from '@ardium-ui/ui';
 import {
-  NumberInputBasicExampleData,
-  NumberInputCompactExampleData,
-  NumberInputEmittedEventsExampleData,
-  NumberInputFloatExampleData,
-  NumberInputMinMaxStepExampleData,
-  NumberInputNoButtonsExampleData,
-  NumberInputPrefixSuffixExampleData
-} from 'txt-dist';
+    NumberInputBasicExampleData,
+    NumberInputCompactExampleData,
+    NumberInputEmittedEventsExampleData,
+    NumberInputFloatExampleData,
+    NumberInputMinMaxStepExampleData,
+    NumberInputNoButtonsExampleData,
+    NumberInputPrefixSuffixExampleData
+} from '@examples';
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';
 import { CodeExampleComponent } from '../../../../components/code-example/code-example.component';
 import { CodeComponent } from '../../../../components/code/code.component';

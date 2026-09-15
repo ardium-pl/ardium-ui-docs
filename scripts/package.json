@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "preinstall": "only-allow pnpm",
-    "ebundler:start": "tsx example-bundler/src/bundle/bundle.ts --in-path=src/examples --out-path=../txt-dist",
+    "ebundler:start": "tsx example-bundler/src/bundle/bundle.ts --in-path=src/examples --out-path=txt-dist",
     "ebundler:stats": "tsx example-bundler/src/stats/stats.ts --in-path=src/examples",
     "efactory": "tsx example-factory/src/main.ts",
     "post-build": "tsx post-build/src/main.ts"
