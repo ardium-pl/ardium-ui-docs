@@ -15,9 +15,9 @@ import {
 import argv from './argv.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const rootDir = __dirname.split('ardium-ui-docs')[0] + 'ardium-ui-docs';
-const sourceDir = path.join(rootDir, 'example-bundler', argv.inPath);
-const outputDir = path.join(rootDir, 'example-bundler', argv.outPath);
+const rootDir = path.resolve(__dirname, '../../../../');
+const sourceDir = path.resolve(rootDir, argv.inPath);
+const outputDir = path.resolve(rootDir, argv.outPath);
 
 (async () => {
   const successfulDelete = await deleteDirectoryAsync(outputDir);
@@ -41,7 +41,10 @@ const outputDir = path.join(rootDir, 'example-bundler', argv.outPath);
         'example file'
       )} into ${totalsMeter.toString()} in ${timer.toString()}`
     );
-  } catch (error) {}
+  } catch (error) {
+    console.error(error);
+    process.exitCode = 1;
+  }
 })();
 
 async function _createExampleBundlesRecursive(
@@ -61,8 +64,7 @@ async function _createExampleBundlesRecursive(
     return;
   }
 
-  const currentPathSplit = currentPath.split('\\');
-  const currentDirectoryName = currentPathSplit[currentPathSplit.length - 1];
+  const currentDirectoryName = path.basename(currentPath);
 
   const outputData: Record<string, string> = {};
 
