@@ -10,9 +10,7 @@
     "build": "ng build && cd scripts && pnpm run post-build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "ngg-page": "ng g c --type=page --standalone",
-    "deploy-only": "cd ./dist/ardium-ui-docs/browser/ && gh-pages --dist .",
-    "build-deploy": "pnpm build && cd ./dist/ardium-ui-docs/browser/ && gh-pages --dist ."
+    "ngg-page": "ng g c --type=page --standalone"
   },
   "private": true,
   "dependencies": {
@@ -40,7 +38,6 @@
     "@angular/compiler-cli": "^19.1.2",
     "@types/jasmine": "~5.1.0",
     "@types/node": "^24.3.0",
-    "gh-pages": "^6.3.0",
     "jasmine-core": "~5.1.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
