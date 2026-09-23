@@ -1,4 +1,4 @@
-import { FormElementAppearance } from '@ardium-ui/ui';
+import { FormElementAppearance } from '@ardium-pl/ui';
 import { ApiPageData } from 'src/app/components/api-page';
 import { BOOLEAN_PROPERTY_DATA, FORM_ELEMENT_APPEARANCE_PROPERTY_DATA } from 'src/app/utils/api-data';
 

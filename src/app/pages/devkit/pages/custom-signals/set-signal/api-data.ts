@@ -137,6 +137,18 @@ export const SetSignalApiData: ApiPageData = {
           returnType: 'boolean',
         },
         {
+          name: 'toggle',
+          description: 'Toggles the presence of a value in the set. If the value exists, it will be removed; if it does not exist, it will be added. Returns <code>true</code> if the value was added, <code>false</code> if it was removed.',
+          params: [
+            {
+              name: 'value',
+              type: 'T',
+              description: 'The value to toggle.',
+            },
+          ],
+          returnType: 'boolean',
+        },
+        {
           name: 'clear',
           description: 'Clears all values from the set.',
           returnType: 'void',

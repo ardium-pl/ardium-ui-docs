@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { arraySignal } from '@ardium-ui/devkit';
+import { arraySignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'array-signal-basic-example',

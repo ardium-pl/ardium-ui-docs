@@ -1,5 +1,5 @@
 import { Component, inject, signal } from '@angular/core';
-import { FileSystemService } from '@ardium-ui/devkit';
+import { FileSystemService } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'file-system-is-supported-example',

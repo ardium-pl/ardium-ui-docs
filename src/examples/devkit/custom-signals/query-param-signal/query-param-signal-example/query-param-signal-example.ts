@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { queryParamSignal } from '@ardium-ui/devkit';
+import { queryParamSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'query-param-signal-example',

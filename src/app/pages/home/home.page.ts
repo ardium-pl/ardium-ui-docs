@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumButtonModule } from '@ardium-ui/ui';
+import { ArdiumButtonModule } from '@ardium-pl/ui';
 import { LogoComponent } from "../../components/logo/logo.component";
 
 @Component({

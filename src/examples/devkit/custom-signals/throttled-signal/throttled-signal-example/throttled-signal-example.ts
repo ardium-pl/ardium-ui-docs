@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { throttledSignal } from '@ardium-ui/devkit';
+import { throttledSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'throttled-signal-example',

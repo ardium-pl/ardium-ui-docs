@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumIconModule, ArdiumTabberModule } from '@ardium-ui/ui';
+import { ArdiumIconModule, ArdiumTabberModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'tabber-label-templates-example',

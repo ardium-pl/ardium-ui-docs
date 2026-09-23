@@ -1,20 +1,20 @@
 import { CommonModule } from '@angular/common';
 import {
-  AfterViewInit,
-  Component,
-  computed,
-  effect,
-  inject,
-  input,
-  model,
-  OnInit,
-  signal,
-  viewChild,
-  ViewContainerRef,
+    AfterViewInit,
+    Component,
+    computed,
+    effect,
+    inject,
+    input,
+    model,
+    OnInit,
+    signal,
+    viewChild,
+    ViewContainerRef,
 } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { coerceBooleanProperty } from '@ardium-ui/devkit';
-import { ArdiumIconButtonModule, ArdiumIconModule, ArdiumTabberModule } from '@ardium-ui/ui';
+import { coerceBooleanProperty } from '@ardium-pl/devkit';
+import { ArdiumIconButtonModule, ArdiumIconModule, ArdiumTabberModule } from '@ardium-pl/ui';
 import { ComponentLoaderService } from '@services/component-loader';
 import { CodeComponent } from '../code/code.component';
 import { SupportedLanguage } from '../code/code.types';

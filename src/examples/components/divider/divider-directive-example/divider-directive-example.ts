@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumDividerModule } from '@ardium-ui/ui';
+import { ArdiumDividerModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'divider-directive-example',

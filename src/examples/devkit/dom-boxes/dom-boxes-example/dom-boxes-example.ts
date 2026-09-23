@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { ChangeDetectorRef, Component, ElementRef, HostListener, inject, signal, viewChild } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { getDomContentRect, getDomPaddingRect } from '@ardium-ui/devkit';
+import { getDomContentRect, getDomPaddingRect } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'dom-boxes-example',

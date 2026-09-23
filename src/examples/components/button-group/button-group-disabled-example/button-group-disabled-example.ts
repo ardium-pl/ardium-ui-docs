@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumButtonGroupModule, ArdiumButtonModule } from '@ardium-ui/ui';
+import { ArdiumButtonGroupModule, ArdiumButtonModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'button-group-disabled-example',

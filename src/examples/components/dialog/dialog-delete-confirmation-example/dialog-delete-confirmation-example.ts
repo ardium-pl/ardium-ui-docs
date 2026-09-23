@@ -1,5 +1,5 @@
 import { Component, OnDestroy, signal } from '@angular/core';
-import { ArdiumButtonModule, ArdiumDialogModule } from "@ardium-ui/ui";
+import { ArdiumButtonModule, ArdiumDialogModule } from "@ardium-pl/ui";
 
 @Component({
   selector: 'dialog-delete-confirmation-example',

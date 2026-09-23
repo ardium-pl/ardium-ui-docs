@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { stackSignal } from '@ardium-ui/devkit';
+import { stackSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'stack-signal-basic-example',

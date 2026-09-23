@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumGridModule, ArdiumStackModule } from '@ardium-ui/ui';
+import { ArdiumGridModule, ArdiumStackModule } from '@ardium-pl/ui';
 import {
     GridAutoLayoutExampleData,
     GridBasicExampleData,

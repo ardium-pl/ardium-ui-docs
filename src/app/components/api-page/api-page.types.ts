@@ -17,6 +17,7 @@ export interface ApiPageData {
 interface _BaseData {
   name: string;
   description?: string;
+  deprecated?: boolean;
 }
 interface _Exportable extends _BaseData {
   exportedFrom: string | null;

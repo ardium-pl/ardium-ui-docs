@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumGridModule, ArdiumStackModule } from '@ardium-ui/ui';
+import { ArdiumGridModule, ArdiumStackModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'grid-stack-companion-example',

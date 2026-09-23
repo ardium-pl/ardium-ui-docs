@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { coerceDateProperty } from '@ardium-ui/devkit';
+import { coerceDateProperty } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'my-calendar',

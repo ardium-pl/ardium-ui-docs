@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'app-copy-button',

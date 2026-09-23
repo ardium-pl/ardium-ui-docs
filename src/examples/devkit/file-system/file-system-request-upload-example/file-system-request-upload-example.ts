@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
-import { FileSystemMethod, FileSystemService, FileSystemStartDirectory } from '@ardium-ui/devkit';
+import { FileSystemMethod, FileSystemService, FileSystemStartDirectory } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'file-system-request-upload-example',

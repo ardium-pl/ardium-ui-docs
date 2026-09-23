@@ -1,7 +1,7 @@
 import { ApplicationConfig } from '@angular/core';
 import { provideRouter } from '@angular/router';
 
-import { provideBreakpoints } from '@ardium-ui/ui';
+import { provideBreakpoints } from '@ardium-pl/ui';
 import { provideHighlightOptions } from 'ngx-highlightjs';
 import { routes } from './app.routes';
 

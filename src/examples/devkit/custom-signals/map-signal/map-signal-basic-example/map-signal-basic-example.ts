@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { mapSignal } from '@ardium-ui/devkit';
+import { mapSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'map-signal-basic-example',

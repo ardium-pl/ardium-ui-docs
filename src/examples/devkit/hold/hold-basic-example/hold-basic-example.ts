@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumHoldModule } from '@ardium-ui/devkit';
+import { ArdiumHoldModule } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'hold-basic-example',

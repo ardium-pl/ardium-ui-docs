@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumNumberInputModule } from '@ardium-ui/ui';
+import { ArdiumNumberInputModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'number-input-prefix-suffix-example',

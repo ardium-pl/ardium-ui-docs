@@ -1,5 +1,5 @@
 import { Component, computed, OnDestroy, OnInit, signal } from '@angular/core';
-import { ArdiumKbdModule } from '@ardium-ui/ui';
+import { ArdiumKbdModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'kbd-dynamic-example',

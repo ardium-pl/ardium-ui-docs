@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, ViewEncapsulation } from '@angular/core';
 import { ActivatedRoute, RouterModule } from '@angular/router';
-import { ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumIconModule } from '@ardium-pl/ui';
 import { CodeComponent } from '../code/code.component';
 import { HeadingsModule } from '../headings/headings.module';
 import { StylingPageData } from './styling-page.types';

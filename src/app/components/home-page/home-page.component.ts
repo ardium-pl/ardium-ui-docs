@@ -1,6 +1,6 @@
 import { Component, computed, input } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumCardModule } from '@ardium-ui/ui';
+import { ArdiumCardModule } from '@ardium-pl/ui';
 import { groupBy } from '@utils';
 import { GroupName } from 'src/app/utils/routes';
 import { sortFeatureGroups } from 'src/app/utils/sort-feature-groups';

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumFormFieldModule, ArdiumInputModule } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule, ArdiumInputModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'form-field-required-optional-labels-example',

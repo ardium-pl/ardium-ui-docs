@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, inject, signal } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { FileSystemMethod, FileSystemService, FileSystemStartDirectory } from '@ardium-ui/devkit';
+import { FileSystemMethod, FileSystemService, FileSystemStartDirectory } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'file-system-save-as-example',

@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
-import { coerceArrayProperty } from '@ardium-ui/devkit';
-import { ArdiumKbdShortcutModule } from '@ardium-ui/ui';
+import { coerceArrayProperty } from '@ardium-pl/devkit';
+import { ArdiumKbdShortcutModule } from '@ardium-pl/ui';
 
 export interface KeyboardInteractionInternal {
   keys: string[];

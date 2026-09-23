@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormControl, ReactiveFormsModule, Validators } from '@angular/forms';
-import { ArdiumFormFieldModule, ArdiumInputModule, provideErrorMap } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule, ArdiumInputModule, provideErrorMap } from '@ardium-pl/ui';
 
 @Component({
   selector: 'form-field-auto-error-example',

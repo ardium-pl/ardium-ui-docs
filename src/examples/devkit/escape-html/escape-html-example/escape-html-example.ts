@@ -1,6 +1,6 @@
 import { Component, signal } from "@angular/core";
 import { FormsModule } from "@angular/forms";
-import { ArdiumEscapeHTMLModule } from "@ardium-ui/devkit";
+import { ArdiumEscapeHTMLModule } from "@ardium-pl/devkit";
 
 @Component({
   selector: 'escape-html-example',

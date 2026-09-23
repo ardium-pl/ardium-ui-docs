@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { persistentSignal, PersistentStorageMethod } from '@ardium-ui/devkit';
+import { persistentSignal, PersistentStorageMethod } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'persistent-signal-cookies-example',

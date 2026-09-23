@@ -196,6 +196,40 @@ export const MapSignalApiData: ApiPageData = {
           returnType: 'boolean',
         },
         {
+          name: 'toggleKey',
+          description: 'Toggles the presence of a key in the map. If the key exists, it will be removed; if it does not exist, it will be added with the provided value. Returns <code>true</code> if the key was added, <code>false</code> if it was removed.',
+          params: [
+            {
+              name: 'key',
+              type: 'K',
+              description: 'The key to toggle.',
+            },
+            {
+              name: 'value',
+              type: 'V',
+              description: 'The value to associate with the key if it is added.',
+            },
+          ],
+          returnType: 'boolean',
+        },
+        {
+          name: 'toggle',
+          description: 'Alias of <code>toggleKey()</code>.',
+          params: [
+            {
+              name: 'key',
+              type: 'K',
+              description: 'The key to toggle.',
+            },
+            {
+              name: 'value',
+              type: 'V',
+              description: 'The value to associate with the key if it is added.',
+            },
+          ],
+          returnType: 'boolean',
+        },
+        {
           name: 'clear',
           description: 'Clears the map.',
           returnType: 'void',
@@ -214,15 +248,36 @@ export const MapSignalApiData: ApiPageData = {
         },
         {
           name: 'set',
-          description: 'Alias of <code>setMap()</code>.',
-          params: [
+          overloads: [
             {
-              name: 'value',
-              type: 'Map<K, V>',
-              description: 'The new map instance to replace the current map.',
+              description: 'Replaces the map with a new map. Alias of <code>setMap()</code>.',
+              params: [
+                {
+                  name: 'value',
+                  type: 'Map<K, V>',
+                  description: 'The new map instance to replace the current map.',
+                },
+              ],
+              returnType: 'void',
+              deprecated: true,
+            },
+            {
+              description: 'Sets a value for the specified key. Alias of <code>setKey()</code>.',
+              params: [
+                {
+                  name: 'key',
+                  type: 'K',
+                  description: 'The key to set.',
+                },
+                {
+                  name: 'value',
+                  type: 'V',
+                  description: 'The value to associate with the key.',
+                },
+              ],
+              returnType: 'void',
             },
           ],
-          returnType: 'void',
         },
         {
           name: 'update',

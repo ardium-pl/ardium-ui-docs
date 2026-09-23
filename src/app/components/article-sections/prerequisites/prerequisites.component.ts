@@ -17,7 +17,7 @@ export class PrerequisitesComponent {
     const modulesToImport = !this.otherModuleNames().length
       ? this.moduleName()
       : [this.moduleName(), ...this.otherModuleNames()].join(', ');
-    return `import { ${modulesToImport} } from '@ardium-ui/ui'`;
+    return `import { ${modulesToImport} } from '@ardium-pl/ui'`;
   });
 
   readonly isOtherModuleNamesDefined = computed(() => this.otherModuleNames().length > 0);
@@ -26,19 +26,19 @@ export class PrerequisitesComponent {
     const styles = this.styles();
     if (!styles) return null;
     const css = [
-      `@import '../node_modules/@ardium-ui/ui/prebuilt-themes/default/core.css';`,
+      `@import '../node_modules/@ardium-pl/ui/prebuilt-themes/default/core.css';`,
       ...styles.map(
         v =>
-          `@import '../node_modules/@ardium-ui/ui/prebuilt-themes/default/${Array.isArray(v) ? v[0] : v}.scs';${
+          `@import '../node_modules/@ardium-pl/ui/prebuilt-themes/default/${Array.isArray(v) ? v[0] : v}.scs';${
             Array.isArray(v) && v[1] ? ' /* if needed */' : ''
           }`
       ),
     ].join('\n');
     const scss = [
-      `@import '../node_modules/@ardium-ui/ui/themes/default/core.scss';`,
+      `@import '../node_modules/@ardium-pl/ui/themes/default/core.scss';`,
       ...styles.map(
         v =>
-          `@import '../node_modules/@ardium-ui/ui/themes/default/${Array.isArray(v) ? v[0] : v}.scss';${
+          `@import '../node_modules/@ardium-pl/ui/themes/default/${Array.isArray(v) ? v[0] : v}.scss';${
             Array.isArray(v) && v[1] ? ' // if needed' : ''
           }`
       ),

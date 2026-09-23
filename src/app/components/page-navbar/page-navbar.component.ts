@@ -51,7 +51,5 @@ export class PageNavbarComponent {
       .reverse()
   );
 
-  isRouteActive(route: string): boolean | undefined {
-    return this.navService.currentRoute()?.startsWith(route);
-  }
+  readonly activeMasterRoute = computed(() => this.navService.currentRoute()?.replace(/\/[^\/]+$/, ''));
 }

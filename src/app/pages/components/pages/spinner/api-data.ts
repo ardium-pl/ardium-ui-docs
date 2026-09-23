@@ -1,4 +1,4 @@
-import { ComponentColor } from '@ardium-ui/ui';
+import { ComponentColor } from '@ardium-pl/ui';
 import { ApiPageData } from 'src/app/components/api-page';
 
 export const SpinnerApiData: ApiPageData = {

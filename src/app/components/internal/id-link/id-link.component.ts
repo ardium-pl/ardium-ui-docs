@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { Router } from '@angular/router';
-import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 import { scrollTo } from '@utils';
 
 @Component({

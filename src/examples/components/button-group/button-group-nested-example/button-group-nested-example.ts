@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumButtonGroupModule, ArdiumButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumButtonGroupModule, ArdiumButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'button-group-nested-example',

@@ -1,5 +1,5 @@
 import { Component, computed, signal } from '@angular/core';
-import { ArdiumInfiniteScrollModule } from '@ardium-ui/devkit';
+import { ArdiumInfiniteScrollModule } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'infinite-scroll-host-example',

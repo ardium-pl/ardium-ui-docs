@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { queryParamSignal } from '@ardium-ui/devkit';
-import { ArdiumCheckboxModule } from '@ardium-ui/ui';
+import { queryParamSignal } from '@ardium-pl/devkit';
+import { ArdiumCheckboxModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'query-param-signal-serialization-example',

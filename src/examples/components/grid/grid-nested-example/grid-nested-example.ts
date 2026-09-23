@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumGridModule } from '@ardium-ui/ui';
+import { ArdiumGridModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'grid-nested-example',

@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
-import { ArdiumButtonModule } from '@ardium-ui/ui';
+import { ArdiumButtonModule } from '@ardium-pl/ui';
 import { GitHubSvg } from '@svg';
 import { LogoDenseComponent } from "../logo/logo-dense.component";
 

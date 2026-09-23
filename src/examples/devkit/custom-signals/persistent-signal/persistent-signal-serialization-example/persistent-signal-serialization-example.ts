@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { persistentSignal, PersistentStorageMethod } from '@ardium-ui/devkit';
-import { ArdiumCheckboxModule } from '@ardium-ui/ui';
+import { persistentSignal, PersistentStorageMethod } from '@ardium-pl/devkit';
+import { ArdiumCheckboxModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'persistent-signal-serialization-example',

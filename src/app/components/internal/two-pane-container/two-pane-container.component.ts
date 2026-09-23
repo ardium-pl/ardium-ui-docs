@@ -1,7 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { Component, computed, ElementRef, input, model, viewChild } from '@angular/core';
-import { coerceBooleanProperty } from '@ardium-ui/devkit';
-import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { coerceBooleanProperty } from '@ardium-pl/devkit';
+import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 import { CopyButtonComponent } from '../../copy-button/copy-button.component';
 
 export const AllowedCopyType = {

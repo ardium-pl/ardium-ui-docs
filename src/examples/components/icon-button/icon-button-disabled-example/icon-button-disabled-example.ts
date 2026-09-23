@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumButtonModule, ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumButtonModule, ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'icon-button-disabled-example',

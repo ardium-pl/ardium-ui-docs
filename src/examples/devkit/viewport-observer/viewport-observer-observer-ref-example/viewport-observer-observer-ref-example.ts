@@ -1,6 +1,6 @@
 import { DecimalPipe } from '@angular/common';
 import { AfterViewInit, Component, ElementRef, inject, signal, viewChild } from '@angular/core';
-import { ArdiumViewportObserverService, ArdViewportObserverRef } from '@ardium-ui/devkit';
+import { ArdiumViewportObserverService, ArdViewportObserverRef } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'viewport-observer-observer-ref-example',

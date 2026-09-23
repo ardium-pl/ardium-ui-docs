@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumDialogModule, ArdiumModalModule } from '@ardium-ui/ui';
+import { ArdiumDialogModule, ArdiumModalModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'dialog-basic-example',

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumFormFieldModule } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule } from '@ardium-pl/ui';
 import {
     FormFieldAutoErrorExampleData,
     FormFieldBasicExampleData,

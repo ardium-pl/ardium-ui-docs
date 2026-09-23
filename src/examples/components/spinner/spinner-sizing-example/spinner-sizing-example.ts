@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumSpinnerModule } from '@ardium-ui/ui';
+import { ArdiumSpinnerModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'spinner-sizing-example',

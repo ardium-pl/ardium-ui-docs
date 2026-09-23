@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumButtonModule } from '@ardium-ui/ui';
+import { ArdiumButtonModule } from '@ardium-pl/ui';
 import {
-  ButtonGroupBasicExampleData,
-  ButtonGroupCompactExampleData,
-  ButtonGroupDisabledExampleData,
-  ButtonGroupMixedElementsExampleData,
-  ButtonGroupNestedExampleData,
-  ButtonGroupVerticalExampleData,
+    ButtonGroupBasicExampleData,
+    ButtonGroupCompactExampleData,
+    ButtonGroupDisabledExampleData,
+    ButtonGroupMixedElementsExampleData,
+    ButtonGroupNestedExampleData,
+    ButtonGroupVerticalExampleData,
 } from '@examples';
 import dedent from 'dedent';
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';

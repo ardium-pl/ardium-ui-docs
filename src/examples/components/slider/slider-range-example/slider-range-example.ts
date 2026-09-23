@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumRangeSliderModule, SliderRange } from '@ardium-ui/ui';
+import { ArdiumRangeSliderModule, SliderRange } from '@ardium-pl/ui';
 
 @Component({
   selector: 'slider-range-example',

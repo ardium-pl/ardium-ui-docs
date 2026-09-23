@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumStackModule } from '@ardium-ui/ui';
+import { ArdiumStackModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'stack-basic-example',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumSliderModule } from '@ardium-ui/ui';
+import { ArdiumSliderModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'slider-label-objects-example',

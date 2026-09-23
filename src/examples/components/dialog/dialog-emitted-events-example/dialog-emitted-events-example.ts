@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumDialogModule } from '@ardium-ui/ui';
+import { ArdiumDialogModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'dialog-emitted-events-example',

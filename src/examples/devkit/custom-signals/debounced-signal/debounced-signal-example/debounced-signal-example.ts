@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { debouncedSignal } from '@ardium-ui/devkit';
+import { debouncedSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'debounced-signal-example',

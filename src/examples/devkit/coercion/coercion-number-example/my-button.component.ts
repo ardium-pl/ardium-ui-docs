@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { coerceNumberProperty } from '@ardium-ui/devkit';
+import { coerceNumberProperty } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'my-button',

@@ -1,6 +1,6 @@
 import { Component, ViewEncapsulation } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumFormFieldModule, ArdiumNumberInputModule } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule, ArdiumNumberInputModule } from '@ardium-pl/ui';
 import {
     NumberInputBasicExampleData,
     NumberInputCompactExampleData,

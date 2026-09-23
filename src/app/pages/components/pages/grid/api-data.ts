@@ -1,4 +1,4 @@
-import { ArdGridAlign, ArdGridDirection, ArdGridJustify, ArdGridSize, ArdGridWrap } from '@ardium-ui/ui';
+import { ArdGridAlign, ArdGridDirection, ArdGridJustify, ArdGridSize, ArdGridWrap } from '@ardium-pl/ui';
 import { BOOLEAN_PROPERTY_DATA } from '@utils';
 import { ApiPageData } from 'src/app/components/api-page';
 

@@ -1,6 +1,6 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { KeyboardService } from '@ardium-ui/devkit';
-import { ArdiumKbdModule } from '@ardium-ui/ui';
+import { KeyboardService } from '@ardium-pl/devkit';
+import { ArdiumKbdModule } from '@ardium-pl/ui';
 
 const MAX = 400;
 const STEP = MAX / 20;

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { counterSignal } from '@ardium-ui/devkit';
+import { counterSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'counter-signal-basic-example',

@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { queueSignal } from '@ardium-ui/devkit';
+import { queueSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'queue-signal-basic-example',

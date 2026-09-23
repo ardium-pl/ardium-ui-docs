@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumFormFieldModule } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule } from '@ardium-pl/ui';
 import { SliderBasicExampleData, SliderLabelObjectsExampleData, SliderNonLinearExampleData, SliderRangeExampleData, SliderRangeSelectionBehaviorsExampleData } from '@examples';
 import { KeyboardInteractionsComponent } from "src/app/components/keyboard-interactions/keyboard-interactions.component";
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';

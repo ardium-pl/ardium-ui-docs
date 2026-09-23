@@ -1,5 +1,5 @@
 import { Component, signal } from "@angular/core";
-import { ArdiumClickOutsideModule } from "@ardium-ui/devkit";
+import { ArdiumClickOutsideModule } from "@ardium-pl/devkit";
 
 @Component({
   selector: 'click-outside-example',

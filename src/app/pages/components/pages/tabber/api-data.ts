@@ -1,4 +1,4 @@
-import { ComponentColor, OneAxisAlignment } from '@ardium-ui/ui';
+import { ComponentColor, OneAxisAlignment } from '@ardium-pl/ui';
 import dedent from 'dedent';
 import { ApiPageData } from 'src/app/components/api-page';
 

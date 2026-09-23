@@ -1,6 +1,6 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { KeyboardService } from '@ardium-ui/devkit';
-import { ArdiumKbdModule } from '@ardium-ui/ui';
+import { KeyboardService } from '@ardium-pl/devkit';
+import { ArdiumKbdModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'keyboard-service-listen-to-key-state-example',

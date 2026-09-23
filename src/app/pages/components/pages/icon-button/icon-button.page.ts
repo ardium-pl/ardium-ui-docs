@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-ui/ui';
+import { ArdiumIconButtonModule, ArdiumIconModule } from '@ardium-pl/ui';
 import { IconButtonBasicExampleData, IconButtonCompactExampleData, IconButtonDisabledExampleData } from '@examples';
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';
 import { CodeExampleComponent } from '../../../../components/code-example/code-example.component';

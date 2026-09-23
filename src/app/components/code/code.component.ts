@@ -1,5 +1,5 @@
 import { Component, computed, input } from '@angular/core';
-import { coerceBooleanProperty } from '@ardium-ui/devkit';
+import { coerceBooleanProperty } from '@ardium-pl/devkit';
 import { Highlight } from 'ngx-highlightjs';
 import { SupportedLanguage } from './code.types';
 

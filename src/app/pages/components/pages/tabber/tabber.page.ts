@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ArdiumFormFieldModule } from '@ardium-ui/ui';
+import { ArdiumFormFieldModule } from '@ardium-pl/ui';
 import { TabberBasicExampleData, TabberLabelExampleData, TabberLabelTemplatesExampleData } from '@examples';
 import { ArticleSectionsModule } from '../../../../components/article-sections/article-sections.module';
 import { CodeExampleComponent } from '../../../../components/code-example/code-example.component';

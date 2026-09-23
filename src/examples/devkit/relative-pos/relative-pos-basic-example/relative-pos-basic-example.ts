@@ -1,5 +1,5 @@
 import { Component, ElementRef, HostListener, signal, viewChild } from '@angular/core';
-import { EventRelativePos, getEventRelativePos } from '@ardium-ui/devkit';
+import { EventRelativePos, getEventRelativePos } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'relative-pos-basic-example',

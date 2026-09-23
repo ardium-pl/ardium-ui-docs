@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ArdiumTabberModule } from '@ardium-ui/ui';
+import { ArdiumTabberModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'tabber-basic-example',

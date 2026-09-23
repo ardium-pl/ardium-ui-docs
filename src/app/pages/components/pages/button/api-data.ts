@@ -1,4 +1,4 @@
-import { ButtonAppearance, ButtonVariant, ComponentColor } from '@ardium-ui/ui';
+import { ButtonAppearance, ButtonVariant, ComponentColor } from '@ardium-pl/ui';
 import { BOOLEAN_PROPERTY_DATA } from '@utils';
 import { ApiPageData } from 'src/app/components/api-page';
 

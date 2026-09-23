@@ -1,5 +1,5 @@
 import { Component, signal } from '@angular/core';
-import { ArdiumFilePipesModule } from '@ardium-ui/devkit';
+import { ArdiumFilePipesModule } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'file-pipes-example',

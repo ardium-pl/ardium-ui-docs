@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, effect, ElementRef, inject, input, signal } from '@angular/core';
-import { coerceBooleanProperty } from '@ardium-ui/devkit';
+import { coerceBooleanProperty } from '@ardium-pl/devkit';
 import { kebab } from 'case';
 import { IdLinkComponent } from '../id-link/id-link.component';
 

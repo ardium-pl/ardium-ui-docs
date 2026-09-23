@@ -1,6 +1,6 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { KeyboardService } from '@ardium-ui/devkit';
-import { ArdiumKbdShortcutModule } from '@ardium-ui/ui';
+import { KeyboardService } from '@ardium-pl/devkit';
+import { ArdiumKbdShortcutModule } from '@ardium-pl/ui';
 
 @Component({
   selector: 'keyboard-service-listen-to-shortcut-example',

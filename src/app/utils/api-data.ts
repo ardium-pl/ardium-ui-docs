@@ -1,4 +1,4 @@
-import { FormElementAppearance } from '@ardium-ui/ui';
+import { FormElementAppearance } from '@ardium-pl/ui';
 import { InputData } from '../components/api-page';
 
 export const BOOLEAN_PROPERTY_DATA: InputData = {

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
-import { tupleSignal } from '@ardium-ui/devkit';
+import { tupleSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'tuple-signal-basic-example',

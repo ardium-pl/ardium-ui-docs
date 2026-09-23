@@ -1,5 +1,5 @@
 import { Component, input } from '@angular/core';
-import { persistentSignal, PersistentStorageMethod } from '@ardium-ui/devkit';
+import { persistentSignal, PersistentStorageMethod } from '@ardium-pl/devkit';
 import { CodeComponent } from '../code/code.component';
 import { SupportedLanguage } from '../code/code.types';
 import { TwoPaneContainerComponent } from '../internal/two-pane-container/two-pane-container.component';

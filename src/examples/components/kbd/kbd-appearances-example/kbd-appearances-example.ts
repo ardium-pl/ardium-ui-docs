@@ -1,5 +1,5 @@
 import { Component } from "@angular/core";
-import { ArdiumKbdModule, ArdiumKbdShortcutModule } from "@ardium-ui/ui";
+import { ArdiumKbdModule, ArdiumKbdShortcutModule } from "@ardium-pl/ui";
 
 @Component({
   selector: 'kbd-appearances-example',

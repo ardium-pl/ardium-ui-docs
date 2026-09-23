@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { setSignal } from '@ardium-ui/devkit';
+import { setSignal } from '@ardium-pl/devkit';
 
 @Component({
   selector: 'set-signal-basic-example',
@@ -18,6 +18,10 @@ export class SetSignalBasicExample {
   delete(value: string) {
     if (!value) return;
     this.exampleSignal.delete(value);
+  }
+  toggle(value: string) {
+    if (!value) return;
+    this.exampleSignal.toggle(value);
   }
   update() {
     this.exampleSignal.update(m => new Set([...m].map(v => v.toLowerCase())));
