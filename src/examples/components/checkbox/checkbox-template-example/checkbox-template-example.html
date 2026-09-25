@@ -1,0 +1,7 @@
+<ard-checkbox [(selected)]="selected" label="Custom icon">
+  <ng-template ard-checkbox-tmp let-selected>
+    {{ selected ? '☑' : '☐' }}
+  </ng-template>
+</ard-checkbox>
+
+<p>Selected: {{ selected() }}</p>

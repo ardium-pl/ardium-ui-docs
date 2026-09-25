@@ -1,0 +1,11 @@
+<ard-checkbox
+  [state]="state()"
+  [reverseSelected]="reverse()"
+  label="Optional setting"
+  (stateChange)="state.set($event)"
+/>
+
+<p>State: {{ state() }}</p>
+<p>Reverse mode: {{ reverse() }}</p>
+
+<button type="button" (click)="reverse.set(!reverse())">Toggle reverseSelected</button>

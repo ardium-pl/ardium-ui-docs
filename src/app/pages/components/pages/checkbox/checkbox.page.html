@@ -1,0 +1,69 @@
+<app-introduction pageTitle="Checkbox">
+  <p>
+    Checkboxes are a compact way to capture a boolean choice. They support standard selection states, a label, and a
+    special indeterminate state for an intermediate value.
+  </p>
+  <app-code-example [data]="CheckboxBasicExampleData" heading="Checkbox overview" [isCodeShown]="false" />
+</app-introduction>
+
+<app-prerequisites moduleName="ArdiumCheckboxModule" [styles]="['checkbox']" />
+
+<section>
+  <app-h2>Using Checkboxes</app-h2>
+  <p>
+    A checkbox can be bound with Angular forms using <code>[formControl]</code> or <code>[(selected)]</code>. The model
+    value is a boolean, while the component also exposes the richer <code>[state]</code> API for the special
+    <code>unselected</code>, <code>indeterminate</code>, and <code>selected</code> states.
+  </p>
+  <p>The following events are emitted:</p>
+  <ul>
+    <li><code>(select)</code> — fired when the checkbox becomes selected.</li>
+    <li><code>(unselect)</code> — fired when the checkbox becomes unselected.</li>
+    <li><code>(selectedChange)</code> — emits the current boolean value.</li>
+    <li><code>(stateChange)</code> — emits the current <code>CheckboxState</code>.</li>
+    <li><code>(change)</code> — aliases the boolean change event.</li>
+  </ul>
+</section>
+
+<section>
+  <app-h2>States and reversed semantics</app-h2>
+  <p>
+    The checkbox has three visual states via the <code>[state]</code> input: <code>unselected</code>,
+    <code>indeterminate</code>, and <code>selected</code>.
+  </p>
+  <p>
+    In some cases, the meaning of the checked state is inverted. Use <code>[reverseSelected]</code> to flip the semantic
+    meaning while keeping the UI consistent.
+  </p>
+  <app-code-example [data]="CheckboxStateExampleData" heading="Checkbox state and reverseSelected" />
+</section>
+
+<section>
+  <app-h2>Customizing the checkbox</app-h2>
+  <p>
+    Checkboxes can be styled with a color, a custom icon, and custom label templates. Colors are defined by the
+    <code>SimpleComponentColor</code> enum, and default values can be changed through the provider.
+  </p>
+  <ul>
+    <li><code>[color]</code> — primary accent color used in the selected state.</li>
+    <li><code>[unselectedColor]</code> — accent color used when the checkbox is unselected.</li>
+    <li><code>[label]</code> — string or boolean label configuration, where <code>null</code> means no label.</li>
+    <li><code>[readonly]</code> and <code>[disabled]</code> — disable interaction as usual for form controls.</li>
+  </ul>
+
+  <app-h3>Customizing with templates</app-h3>
+  <p>
+    The default icon can be replaced with a custom Angular template. Use <code>ng-template</code> marked with
+    <code>ard-checkbox-tmp</code> directive, and the template receives the current <code>selected</code> state.
+  </p>
+  <app-code-example [data]="CheckboxTemplateExampleData" heading="Custom checkbox template" />
+</section>
+
+<section>
+  <app-h2>Providing default values</app-h2>
+  <p>
+    Default values of all checkbox properties can be provided with the <code>provideCheckboxDefaults</code> provider
+    function. It accepts a partial defaults object and merges it with the library defaults.
+  </p>
+  <app-code language="typescript" [code]="providingDefaultValuesExampleCode" styled />
+</section>

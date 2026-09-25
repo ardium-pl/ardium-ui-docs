@@ -6,6 +6,7 @@ import { ButtonGroupStylingData } from './pages/button-group/styling-data';
 import { ButtonApiData } from './pages/button/api-data';
 import { ButtonPage } from './pages/button/button.page';
 import { ButtonStylingData } from './pages/button/styling-data';
+import { CheckboxPage } from './pages/checkbox/checkbox.page';
 import { DialogApiData } from './pages/dialog/api-data';
 import { DialogPage } from './pages/dialog/dialog.page';
 import { DividerApiData } from './pages/divider/api-data';
@@ -98,10 +99,15 @@ export const componentRouteData = () => [
     'Buttons'
   ),
   createUnderConstruction('card', 'Card', 'A styled container for pieces of itemized content.', 'Layout'),
-  createUnderConstruction(
+  createPageRoute(
     'checkbox',
     'Checkbox',
     'Handles boolean input with an optional indeterminate mode.',
+    CheckboxPage,
+    undefined as any,
+    undefined,
+    undefined,
+    'assets/checkbox.png',
     'Form Elements'
   ),
   createUnderConstruction(
