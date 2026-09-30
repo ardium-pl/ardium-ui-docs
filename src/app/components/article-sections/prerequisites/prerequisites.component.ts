@@ -29,16 +29,16 @@ export class PrerequisitesComponent {
       `@import '../node_modules/@ardium-pl/ui/prebuilt-themes/default/core.css';`,
       ...styles.map(
         v =>
-          `@import '../node_modules/@ardium-pl/ui/prebuilt-themes/default/${Array.isArray(v) ? v[0] : v}.scs';${
+          `@import '../node_modules/@ardium-pl/ui/prebuilt-themes/default/${Array.isArray(v) ? v[0] : v}.css';${
             Array.isArray(v) && v[1] ? ' /* if needed */' : ''
           }`
       ),
     ].join('\n');
     const scss = [
-      `@import '../node_modules/@ardium-pl/ui/themes/default/core.scss';`,
+      `@use '../node_modules/@ardium-pl/ui/themes/default/core.scss' as *;`,
       ...styles.map(
         v =>
-          `@import '../node_modules/@ardium-pl/ui/themes/default/${Array.isArray(v) ? v[0] : v}.scss';${
+          `@use '../node_modules/@ardium-pl/ui/themes/default/${Array.isArray(v) ? v[0] : v}.scss' as *;${
             Array.isArray(v) && v[1] ? ' // if needed' : ''
           }`
       ),
