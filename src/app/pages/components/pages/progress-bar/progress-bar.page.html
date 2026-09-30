@@ -1,0 +1,42 @@
+<app-introduction pageTitle="Progress Bar">
+  <p>
+    Progress bars show a linear state for loading, uploading, or completion. They support determinate, indeterminate,
+    query, and buffer modes while staying lightweight and flexible enough for status layouts.
+  </p>
+  <app-code-example [data]="ProgressBarBasicExampleData" heading="Progress bar overview" [isCodeShown]="false" />
+</app-introduction>
+
+<app-prerequisites moduleName="ArdiumProgressBarModule" [styles]="['progress-bar']" />
+
+<section>
+  <app-h2>Modes and states</app-h2>
+  <p>
+    A progress bar can be <code>determinate</code>, <code>indeterminate</code>, <code>query</code>, or
+    <code>buffer</code>. For determinate states, use the <code>[value]</code> input. For buffer mode, also provide
+    <code>[bufferValue]</code> to show the current target and the overall progress together.
+  </p>
+  <app-code-example [data]="ProgressBarModesExampleData" heading="Progress bar modes" />
+</section>
+
+<section>
+  <app-h2>Buffer and customization</app-h2>
+  <p>
+    Colors, variants, and sizing are controlled through the <code>[color]</code>, <code>[variant]</code>, and
+    <code>[size]</code> inputs. The default appearance is a pill-shaped bar using the primary color, but you can also
+    switch to a sharper look or a custom color scheme.
+  </p>
+  <p>
+    Keep in mind that <code>mode="buffer"</code> cannot be combined with <code>size="auto"</code>. The component logs a
+    warning when that forbidden combination is used.
+  </p>
+  <app-code-example [data]="ProgressBarBufferExampleData" heading="Buffer mode and styling" />
+</section>
+
+<section>
+  <app-h2>Providing default values</app-h2>
+  <p>
+    Default values for the progress bar can be supplied with the <code>provideProgressBarDefaults</code> provider. This
+    lets you set a consistent look across an application without repeating the same inputs everywhere.
+  </p>
+  <app-code language="typescript" [code]="providingDefaultValuesExampleCode" styled />
+</section>

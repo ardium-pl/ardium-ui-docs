@@ -6,7 +6,9 @@ import { ButtonGroupStylingData } from './pages/button-group/styling-data';
 import { ButtonApiData } from './pages/button/api-data';
 import { ButtonPage } from './pages/button/button.page';
 import { ButtonStylingData } from './pages/button/styling-data';
+import { CheckboxApiData } from './pages/checkbox/api-data';
 import { CheckboxPage } from './pages/checkbox/checkbox.page';
+import { CheckboxStylingData } from './pages/checkbox/styling-data';
 import { DialogApiData } from './pages/dialog/api-data';
 import { DialogPage } from './pages/dialog/dialog.page';
 import { DividerApiData } from './pages/divider/api-data';
@@ -30,6 +32,10 @@ import { NumberInputApiData } from './pages/number-input/api-data';
 import { NumberInputExceptionsData } from './pages/number-input/exceptions-data';
 import { NumberInputPage } from './pages/number-input/number-input.page';
 import { NumberInputStylingData } from './pages/number-input/styling-data';
+import { ProgressBarApiData } from './pages/progress-bar/api-data';
+import { ProgressBarExceptionsData } from './pages/progress-bar/exceptions-data';
+import { ProgressBarPage } from './pages/progress-bar/progress-bar.page';
+import { ProgressBarStylingData } from './pages/progress-bar/styling-data';
 import { SliderApiData } from './pages/slider/api-data';
 import { SliderExceptionsData } from './pages/slider/exceptions-data';
 import { SliderPage } from './pages/slider/slider.page';
@@ -104,9 +110,9 @@ export const componentRouteData = () => [
     'Checkbox',
     'Handles boolean input with an optional indeterminate mode.',
     CheckboxPage,
-    undefined as any,
+    CheckboxApiData,
     undefined,
-    undefined,
+    CheckboxStylingData,
     'assets/checkbox.png',
     'Form Elements'
   ),
@@ -196,7 +202,17 @@ export const componentRouteData = () => [
   createUnderConstruction('hex-input', 'Hex Input', 'Text field for inputing hexadecimal strings.', 'Form Elements'),
   createUnderConstruction('date-input', 'Date Input', 'Text field and calendar combined into one.', 'Form Elements'),
   createUnderConstruction('password-input', 'Password Input', 'Text field for inputing passwords.', 'Form Elements'),
-  createUnderConstruction('progress-bar', 'Progress Bar', 'A linear progress or state indicator.', 'Feedback'),
+  createPageRoute(
+    'progress-bar',
+    'Progress Bar',
+    'A linear progress or state indicator.',
+    ProgressBarPage,
+    ProgressBarApiData,
+    ProgressBarExceptionsData,
+    ProgressBarStylingData,
+    undefined,
+    'Feedback'
+  ),
   createUnderConstruction('progress-circle', 'Progress Circle', 'A circular progress indicator.', 'Feedback'),
   createUnderConstruction('radio', 'Radio Button', 'Allows user to select one option from a group.', 'Form Elements'),
   createUnderConstruction('segment', 'Segment', 'A group of on/off toggles.', 'Form Elements'),

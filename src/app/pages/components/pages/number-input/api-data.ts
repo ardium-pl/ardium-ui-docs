@@ -1,3 +1,4 @@
+import dedent from 'dedent';
 import { ApiPageData } from 'src/app/components/api-page';
 
 export const NumberInputApiData: ApiPageData = {
@@ -71,23 +72,27 @@ export const NumberInputApiData: ApiPageData = {
         },
         {
           name: 'min',
-          type: 'NumberLike',
-          description: 'Minimum numeric value allowed by the component.',
+          type: 'NumberLike | null',
+          description: 'Minimum numeric value allowed by the component, or null for no limit.',
           default: `0`,
           required: false,
         },
         {
           name: 'max',
-          type: 'NumberLike',
-          description: 'Maximum numeric value allowed by the component.',
-          default: `Infinity`,
+          type: 'NumberLike | null',
+          description: 'Maximum numeric value allowed by the component, or null for no limit.',
+          default: `null`,
           required: false,
         },
         {
           name: 'minMaxBehavior',
           type: 'ArdNumberInputMinMaxBehavior',
-          description:
-            'Controls when values outside the configured <code>min</code> and <code>max</code> range are adjusted.',
+          description: dedent`Controls when values outside the configured <code>min</code> and <code>max</code> range are adjusted.</p>
+            <ul>
+              <li></li><code>"adjust-on-input"</code> - Values are adjusted immediately as the user types.</li>
+              <li></li><code>"adjust-on-blur"</code> - Values are adjusted when the input loses focus.</li>
+              <li></li><code>"noop"</code> - No automatic adjustment is performed. Values outside the range are allowed.</li>
+            </ul>`,
           default: `ArdNumberInputMinMaxBehavior.AdjustOnBlur`,
           required: false,
         },
